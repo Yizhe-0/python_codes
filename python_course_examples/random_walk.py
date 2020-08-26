@@ -31,7 +31,7 @@ class RandomWalk():
 
             # Reject moves that go nowhere.
             if x_step == 0 and y_step == 0:
-                contine
+                continue
 
             #Calculate the next x and y valuse.
             next_x = self.x_values[-1] + x_step
